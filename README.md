@@ -31,19 +31,19 @@ Using a **TGARCH model**, it estimates **Value at Risk (VaR)** for both markets 
 
 ## 🚀 Technologies & Frameworks
 - **R Programming**  
-  - `quantmod` → financial data retrieval (COMEX & IHSG prices)
-  - `ggplot2` → visualization (returns, volatility, VaR)
-  - `dplyr` → data manipulation
-  - `tseries`, `FinTS`, `lmtest` → time series tests (stationarity, ARCH effect, diagnostics)
-  - `fBasics` → descriptive statistics (skewness, kurtosis)
-  - `rugarch`, `fGarch`, `rmgarch` → GARCH/TGARCH volatility modeling
-  - `GAS` → generalized autoregressive score models (optional extensions)
-  - `tstests` → additional time series testing 
+  - `quantmod` (financial data retrieval)
+  - `ggplot2` (visualization)
+  - `dplyr` (data manipulation)
+  - `tseries`, `FinTS`, `lmtest` (time series tests)
+  - `fBasics` (descriptive statistics)
+  - `rugarch`, `fGarch`, `rmgarch` (GARCH/TGARCH volatility modeling)
+  - `GAS` (generalized autoregressive score models)
+  - `tstests` (additional time series testing) 
 
 ---
 
 ## 📊 Expected Outcomes
-- TGARCH-based **VaR estimates** for both COMEX and IHSG during crises.  
+- TGARCH-based VaR estimates for both COMEX and IHSG during crises.  
 - Evidence of volatility asymmetry and clustering in both markets.  
 - Comparative insights on risk levels between gold and equities.  
-- Granger causality results showing whether COMEX gold acts as a **hedge or safe haven** for the Indonesian stock market.  
+- Granger causality results showing whether COMEX gold acts as a hedge or safe haven for the Indonesian stock market.  
